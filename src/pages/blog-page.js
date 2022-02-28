@@ -1,7 +1,7 @@
-import Layout from "../components/Layout";
+import Layout from "src/components/Layout";
 import Link from "next/link";
-import { getAllPostsData } from "../lib/posts";
-import Post from "../components/Post";
+import { getAllPostsData } from "src/lib/posts";
+import Post from "src/components/Post";
 
 export default function BlogPage({ filteredPosts }) {
   return (

@@ -1,5 +1,5 @@
-import Auth from "../components/Auth";
-import Layout from "../components/Layout";
+import Auth from "src/components/Auth";
+import Layout from "src/components/Layout";
 
 export default function Home() {
   return (

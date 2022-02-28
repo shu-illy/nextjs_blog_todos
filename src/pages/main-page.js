@@ -1,6 +1,6 @@
 import Cookie from "universal-cookie";
 import { useRouter } from "next/router";
-import Layout from "../components/Layout";
+import Layout from "src/components/Layout";
 import Link from "next/link";
 
 const cookie = new Cookie();

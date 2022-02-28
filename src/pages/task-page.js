@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import Layout from "../components/Layout";
+import Layout from "src/components/Layout";
 import Link from "next/link";
-import { getAllTasksData } from "../lib/tasks";
-import Task from "../components/Task";
+import { getAllTasksData } from "src/lib/tasks";
+import Task from "src/components/Task";
 import useSWR from "swr";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
