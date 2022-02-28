@@ -19,9 +19,9 @@ export default function MainPage() {
             Visit Blog by SSG + ISR
           </a>
         </Link>
-        <Link href="/blog-page" passHref>
+        <Link href="/task-page" passHref>
           <a className="bg-gray-500 mr-8 hover:bg-gray-600 text-white px-4 py-12 rounded">
-            Visit Task by SSG + ISR
+            Visit Task by ISR + CSR
           </a>
         </Link>
       </div>
