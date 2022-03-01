@@ -65,7 +65,7 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params }) => {
-  const { task: staticTask } = await getTaskData(params.id);
+  const staticTask = await getTaskData(params.id);
   return {
     props: {
       id: staticTask.id,
